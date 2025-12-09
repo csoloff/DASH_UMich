@@ -51,4 +51,4 @@ for i in range(0,len(d)):
     if np.isfinite(d.loc[i, 'GF']) & np.isfinite(d.loc[i, 'GF']):
         d.loc[i, 'kappa'] = get_root(row.Dp, row.GF, row.RH/100)
 
-d.to_csv('./outputs/RF08_kappa.csv')
+d.to_csv('./outputs/RF08_kappa.csv', index=False)
