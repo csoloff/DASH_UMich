@@ -1,3 +1,4 @@
+#%%
 from funcs import *
 from scipy.optimize import root_scalar
 
