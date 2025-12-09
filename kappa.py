@@ -1,5 +1,5 @@
-from scipy.optimize import root_scalar
 from funcs import *
+from scipy.optimize import root_scalar
 
 def gf_kappa(k, D_d, gf, RH):
     A = 4*0.072*0.0180153/(8.3144598*(273.15+17)*1000)
